@@ -14,9 +14,9 @@ class LinkedList:
                 temp = temp.next
             temp.next = new_node  #appending new node
     def del_node(self):
-        temp = self.head
         prev = None
         self.head = self.head.next
+        temp = self.head
         while(temp.next):
                  prev = temp
                  temp =temp.next
