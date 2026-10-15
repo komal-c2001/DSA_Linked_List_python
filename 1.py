@@ -1,6 +1,5 @@
 class Node:
     def __init__(self, val):
-        self.prev = None
         self.data = val
         self.next = None
 class LinkedList:
@@ -17,7 +16,7 @@ class LinkedList:
             self.head = new_node
     def display(self):
         temp = self.head
-        print("List Elements")
+        print("List Elemennts")
         while temp:
             print(temp.data,end="->")
             temp = temp.next
