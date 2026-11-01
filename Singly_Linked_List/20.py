@@ -62,5 +62,5 @@ list1.display()
 print("Second List:")
 list2.display()
 
-print("Addition:")
+print("Substraction:")
 result.display()
